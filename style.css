@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+@media screen and (width<600px) {
+    button{
+        font-size: 18px;
+        margin: 40px;
+        padding: 10px;
+        color: cadetblue;
+        display: none;
+    }
+}
+@media screen and (width>600px) {
+    button{
+        font-size: 18px;
+        margin: 40px;
+        padding: 10px;
+        color: rgb(78, 99, 204);
+    }
+}
